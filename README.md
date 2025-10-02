@@ -37,7 +37,7 @@ Ein leistungsstarkes Discourse-Plugin, das User-Aktivitäten automatisch mit Ene
 ### 1. Download
 
 ```bash
-wget https://nova-chain.io/downloads/discourse-novachain-plugin-v1.1.1.tar.gz
+wget https://community.nova-chain.io/downloads/discourse-novachain-plugin-v1.1.1.tar.gz
 ```
 
 ### 2. Installation

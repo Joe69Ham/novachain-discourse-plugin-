@@ -1,0 +1,73 @@
+{
+  "plugin": {
+    "name": "NovaChain Energy Plugin",
+    "version": "1.1.1",
+    "status": "stable",
+    "release_date": "2025-10-02",
+    "description": "Belohne deine Community automatisch mit Blockchain-Rewards. Energy Points für Aktivitäten, Auto-Transfer bei 5000 EP.",
+    "author": "NovaChain Team",
+    "license": "MIT",
+    "homepage": "https://community.nova-chain.io",
+    "support_url": "https://community.nova-chain.io",
+    
+    "downloads": {
+      "plugin": {
+        "file": "discourse-novachain-plugin-v1.1.1.tar.gz",
+        "url": "/downloads/discourse-novachain-plugin-v1.1.1.tar.gz",
+        "size": "2.5 KB",
+        "checksum": "sha256"
+      },
+      "documentation": {
+        "installation_guide": "/downloads/PLUGIN_INSTALLATION_GUIDE.md",
+        "api_guide": "/downloads/EXTERNAL_TRANSFER_UPDATE.md",
+        "quick_reference": "/downloads/QUICK_REFERENCE.txt"
+      }
+    },
+    
+    "requirements": {
+      "discourse_version": "2.7.0+",
+      "ruby_version": "3.0+",
+      "installation_type": ["docker", "standalone"],
+      "api_required": true
+    },
+    
+    "features": [
+      "Automatisches Energy Points Tracking",
+      "Auto-Transfer bei konfigurierbarem Schwellwert",
+      "Blockchain API Integration",
+      "Vollständig anpassbar",
+      "Error Handling & Retry Logic",
+      "Monitoring & Logging"
+    ],
+    
+    "energy_points": {
+      "topic_created": 5,
+      "post_created": 3,
+      "solution_accepted": 8,
+      "badge_earned": 4,
+      "like_given": 2,
+      "like_received": 1,
+      "daily_visit": 1,
+      "auto_transfer_threshold": 5000
+    },
+    
+    "installation_time": "5 minutes",
+    
+    "use_cases": [
+      "Gaming Communities",
+      "Crypto Communities",
+      "Education Platforms",
+      "NFT Projects",
+      "Business Forums",
+      "Startups"
+    ],
+    
+    "compatibility": [
+      "DigitalOcean",
+      "AWS",
+      "Hetzner",
+      "Self-Hosted",
+      "Managed Discourse"
+    ]
+  }
+}
